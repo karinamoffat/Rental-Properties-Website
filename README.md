@@ -1,5 +1,5 @@
 # Rental-Properties-Website
-This is a website for a fake rental property group in Ontario.
+This is a website for a made up rental property group in Ontario.
 
 ## Built with:
   1. CSS
