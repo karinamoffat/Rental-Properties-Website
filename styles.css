@@ -1,0 +1,142 @@
+body {
+	background-color: #F5F5DC;
+}
+
+a {
+	cursor: pointer;
+}
+
+.header-main {
+	width: 100%;
+	height: 120px;
+	background-color: #00008d;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-main-logo {
+	width: fit-content;
+	height: 100%;
+	padding-left: 10px;
+	display: flex;
+}
+
+img.header-main-logo {
+	height: 100px;
+	align-self: center;
+}
+
+h1.header-main-title {
+	color: #D3D3D3;
+	font-size: 50px;
+	font-family: "Carter One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	line-height: 60px;
+	padding-left: 10px;
+}
+
+.header-main-nav {
+	display: flex;
+	width: fit-content;
+	height: 100%;
+}
+
+li.header-main-nav {
+	display: inline;
+	float: left;
+	margin-right: 30px;
+	font-size: 100;
+	line-height: 85px;
+	font-family: "Carter One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul.header-main-nav {
+	width: fit-content;
+	list-style: none;
+	margin-left: 30px;
+	padding: 0 20px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #D3D3D3;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #D3D3D3;
+}
+
+.main-img-col {
+	display: inline;
+	float: left;
+	width:50%;
+	padding: 10px;
+	position: relative;
+}
+
+img.main-img-col {
+	display: inline;
+	height: 300px;
+	width: 50%;
+
+}
+
+div.main-images {
+	position: relative;
+	left: 85px;
+	top: 150px;
+	display: inline;
+	margin: 100px 100px 100px 100px;
+	justify-content: center;
+}
+
+img.main-image-one {
+	width: fit-content;
+	height: 450px;
+}
+
+img.main-image-two {
+	width: fit-content;
+	height: 450px;
+}
+
+div.about-background {
+	position: relative;
+	left: 150px;
+	background-color: #D3D3D3;
+	height: 250px;
+	width: 1500px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+h1.about-background-heading {
+	font-family: "Carter One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+	color: #FFFAF0;
+	text-align: center;
+}
+
+div.about-textbox {
+	position: static;
+	background-color: #FFFAF0;
+	height: 150px;
+	width: 1460px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p.about-textbox-writing {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	padding: 5px 5px;
+}
